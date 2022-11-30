@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 4rem 0 0 7.2rem;
+  background-color: black;
+}
+
+nav {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 2.2rem;
+  color: #C4C4CC;
+}
+
+nav a:active {
+  font-weight: 700;
+  color: #FFFFFF;
+}
