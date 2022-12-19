@@ -1,6 +1,7 @@
 @import url('/style/home.css');
 @import url('/style/universe.css');
 @import url('./style/explore.css');
+@import url('./style/404.css');
 
 * {
   margin: 0;
@@ -25,6 +26,10 @@ nav {
   gap: 3.2rem;
 }
 
+.error__link {
+  display: none;
+}
+
 nav a {
   text-decoration: none;
   font-weight: 400;
@@ -38,17 +43,13 @@ nav a:active {
   color: #FFFFFF;
 }
 
-
+.home__active,
+.universe__active,
+.explore__active {
+  color: #FFFFFF;
+}
 
 /* PAGE HOME */
-
-.home__bg #app {
-  width: calc(100% - 7.2rem);
-  height: calc(100% - 4rem);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .home__bg { 
   background: url(./img/bg-home.png) no-repeat bottom;
@@ -56,6 +57,14 @@ nav a:active {
   display: flex;
   flex-direction: column;
   color: #E1E1E6;
+}
+
+.home__bg #app {
+  width: calc(100% - 7.2rem);
+  height: calc(100% - 4rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* PAGE UNIVERSE */
@@ -90,4 +99,19 @@ nav a:active {
   height: calc(100% - 4rem);
   justify-content: flex-start;
   align-items: flex-start;
+}
+
+/* PAGE ERROR 404 */
+
+.error404__bg {
+  background-color: black;
+  color: #FFFFFF;
+}
+
+.error404__bg #app {
+  width: calc(100% - 15rem);
+  height: calc(100% - 5rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

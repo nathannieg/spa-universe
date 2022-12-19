@@ -12,14 +12,19 @@
       rel="stylesheet"
     />
   </head>
-  <body class="home__bg">
-    <!-- class="home__bg universe__bg explore__bg" -->
+  <body class="error404__bg">
+    <!-- class="home__bg universe__bg explore__bg error404__bg" -->
     <nav>
       <img src="./img/logo.svg" alt="Logo" />
-      <a href="/" onclick="route()">Home</a>
-      <a href="/universo" onclick="route()">O universo</a>
-      <a href="/exploracao" onclick="route()">Exploração</a>
-      <a href="/404" onclick="route()">Error 404</a>
+      <a class="link__home" href="/" onclick="route()">Home</a>
+      <a class="link__universe" href="/universo" onclick="route()"
+        >O universo</a
+      >
+      <a class="link__explore" href="/exploracao" onclick="route()"
+        >Exploração</a
+      >
+      <a class="error__link" href="/404" onclick="route()">Error 404</a>
+      <!-- classes active: home__active universe__active explore__active-->
     </nav>
 
     <div id="app"></div>
