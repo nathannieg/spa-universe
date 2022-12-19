@@ -28,9 +28,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O SPA Universe é uma Single Page Application desenvolvida durante o programa Explorer, da Rocketseat, de desenvolvimento web fullstack. O desafio tem como objetivo colocar em prática conhecimentos básicos sobre SPA. [Acesse a aplicação aqui](https://nathannieg.github.io/spa-universe/).
 
+Para abrir a aplicação na sua máquina, baixar todos os arquivos, instalar o node, abrir o terminar e digitar: npm start.
+
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/2AeBIlT4lymNDEx8xgicxX/Desafios-Explorer-SPA-Universe-Copy?fuid=988589422077714173). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/2AeBIlT4lymNDEx8xgicxX/Desafios-Explorer-SPA-Universe-Copy?fuid=988589422077714173). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## 🔧 Melhorias
 
