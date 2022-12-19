@@ -15,10 +15,6 @@ Projeto desenvolvido como parte do programa Explorer, de desenvolvimento web ful
 
 <br>
 
-<p align="center">
-  <img alt="SPA Universe" width="100%">
-</p>
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
