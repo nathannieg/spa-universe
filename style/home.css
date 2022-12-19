@@ -1,50 +1,32 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-:root {
-  font-size: 62.5%;
-}
-
-body {
-  width: 100vw;
-  height: 100vh;
+.home__bg #app .home__container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 2.4rem;
-  color: #E1E1E6;
-  font-family: 'Roboto', sans-serif;
 }
 
-.bg-image {
-  position: absolute;
-  z-index: -1;
-  background: url(../img/bg-home.png) no-repeat bottom;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-}
-
-h1 {
+.home__bg #app h1 {
   font-weight: 700;
   font-size: 4.8rem;
   line-height: 125%;
   color: #E1E1E6;
 }
 
-button {
+.home__bg #app button {
   padding: 1.2rem 3.2rem;
   border: 2px solid #FFFFFF;
   border-radius: .5rem;
-  color: #FFFFFF;
+  
   background-color: transparent;
   text-transform: uppercase;
   font-size: 1.4rem;
   line-height: 2.4;
   font-weight: 700;
   text-align: center;
+}
+
+.home__bg #app button a {
+  text-decoration: none;
+  color: #FFFFFF;
 }

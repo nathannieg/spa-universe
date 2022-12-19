@@ -12,14 +12,17 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body class="home__bg">
+    <!-- class="home__bg universe__bg explore__bg" -->
     <nav>
       <img src="./img/logo.svg" alt="Logo" />
-      <a href="">Home</a>
-      <a href="">O universo</a>
-      <a href="">Exploração</a>
+      <a href="/" onclick="route()">Home</a>
+      <a href="/universo" onclick="route()">O universo</a>
+      <a href="/exploracao" onclick="route()">Exploração</a>
+      <a href="/404" onclick="route()">Error 404</a>
     </nav>
 
     <div id="app"></div>
+    <script src="./js/index.js"></script>
   </body>
 </html>
