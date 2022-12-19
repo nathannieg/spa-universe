@@ -49,6 +49,20 @@ nav a:active {
   color: #FFFFFF;
 }
 
+.dev {
+  position: absolute;
+  z-index: 1;
+  bottom: 1rem;
+  left: 0;
+right: 0;
+text-align: center;
+}
+
+.dev a {
+  text-decoration: none;
+  color: hsla(194, 97%, 31%, 1);
+
+}
 /* PAGE HOME */
 
 .home__bg { 
