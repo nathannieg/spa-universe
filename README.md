@@ -28,7 +28,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O SPA Universe é uma Single Page Application desenvolvida durante o programa Explorer, da Rocketseat, de desenvolvimento web fullstack. O desafio tem como objetivo colocar em prática conhecimentos básicos sobre SPA. [Acesse a aplicação aqui](https://nathannieg.github.io/spa-universe/).
 
-Para abrir a aplicação na sua máquina, baixar todos os arquivos, instalar o node, abrir o terminar e digitar: npm start.
+Para abrir a aplicação na sua máquina, baixar todos os arquivos, instalar o node, abrir o terminal e digitar: npm start.
 
 ## 🔖 Layout
 
