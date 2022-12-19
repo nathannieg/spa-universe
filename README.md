@@ -13,14 +13,10 @@ Projeto desenvolvido como parte do programa Explorer, de desenvolvimento web ful
   <a href="#-agradecimentos">Agradecimentos</a>
 </p>
 
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
-</p>
-
 <br>
 
 <p align="center">
-  <img alt="SPA Universe" src="" width="100%">
+  <img alt="SPA Universe" width="100%">
 </p>
 
 ## 🚀 Tecnologias
