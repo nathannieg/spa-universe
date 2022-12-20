@@ -100,3 +100,6 @@ function makeExploreLinkActive() {
   linkUniverse.classList.remove('universe__active')
   linkHome.classList.remove('home__active')
 }
+
+// permitir navegação pelas setas do navegador
+window.onpopstate = () => handle()
